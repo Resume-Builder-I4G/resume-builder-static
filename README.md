@@ -17,4 +17,6 @@ This repo belongs to our static HTML and CSS files. And for you to contribute, t
 
 • Always give progress to avoid reassigning.
 
+• Please attach a demo to your work
+
 Happy hacking !!!!
