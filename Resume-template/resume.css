@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #F8F8F8;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 0.625rem;
+    font-size: 500;
+}
+
+p {
+    font-size: 0.5rem;
+    line-height: 12px;
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.left-container {
+    background-color: #413C3C;
+    color: #FFF;
+    padding: 30px;
+}
+
+.img-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.about {
+    margin-bottom: 60px;
+}
+
+p em {
+    display: block;
+    margin-top: 20px;
+}
+
+.education, .languages, .work-item, .certificates {
+    margin-bottom: 30px;
+}
+
+.languages p {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-container {
+    background-color: #FFF;
+    padding: 30px;
+}
+
+.profession {
+    font-size: 0.75rem;
+}
+
+.personal-info, .work-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info {
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+svg {
+    fill: #000;
+}
